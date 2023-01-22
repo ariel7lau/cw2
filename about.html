@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1>Welcome to my Tech Portfolio</h1>
+    <ul>
+            <li>
+                <h2>{{ project.title }}</h2>
+                <p>{{ project.description }}</p>
+            </li>
+    </ul>
+{% endblock %}
